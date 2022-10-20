@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/5b604fa918.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="firstcon">
+      <div id="start-game">
+        <span class="tictactoe">TicTacToe</span>
+        <button id="startBtn">Start Game</button>
+      </div>
+    </section>
+    <section class="secondcon">
+        <div class="selectbox">
+          <span class="text">Choose your Player</span>
+          <div class="cp">
+            <button id="X" class="player">Player (X)</button>
+            <button id="O" class="player">Player (O)</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="thirdcon">
+      <div class="status-container">
+        <span class="game-status"></span>
+      </div>
+      <div class="game-container">
+        <div>
+          <span class="cell" data-cell-index="0"></span>
+          <span class="cell" data-cell-index="1"></span>
+          <span class="cell" data-cell-index="2"></span>
+        </div>
+        <div>
+          <span class="cell" data-cell-index="3"></span>
+          <span class="cell" data-cell-index="4"></span>
+          <span class="cell" data-cell-index="5"></span>
+        </div>
+        <div>
+          <span class="cell" data-cell-index="6"></span>
+          <span class="cell" data-cell-index="7"></span>
+          <span class="cell" data-cell-index="8"></span>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="prev-btn">
+          <i class="fa-sharp fa-solid fa-circle-chevron-left"></i>
+          Prev
+        </button>
+        <button id="play-again-btn">Play Again</button>
+        <button id="next-btn">
+          Next <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+    <section class="fourthcon">
+      <div class="winner-container">
+        <div class="status-text"></div>
+        <div class="btn-container">
+          <button id="replay-btn">Replay</button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
