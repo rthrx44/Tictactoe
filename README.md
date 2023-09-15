@@ -12,15 +12,12 @@
 <br>
 
 <div align='center'>
-<h3 align='center'>Home Page "Darkmode" Large Screen 💻</h3>
-<img src='./src/components/assets/Laptop Darkmode.jpeg'/>
-<h3 align='center'>Home Page "Lightmode" Large Screen 💻</h3>
-<img src='./src/components/assets/Laptop Lightmode.jpeg'/>
-</div>
-
-<div align='center'>
-<h3> Home Page "Darkmode" Small Screen 📱</h3>
-<img src='./src/components/assets/Phone Darkmode.jpeg'/>
-<h3> Home Page "Lightmode" Small Screen 📱</h3>
-<img src='./src/components/assets/Phone Lightmode.jpeg'/>
+<h3 align='center'>Landing Page</h3>
+<img src='./Landing.jpeg'/>
+<h3 align='center'>Choose Page</h3>
+<img src='./Choose.jpeg'/>
+<h3 align='center'>Board Page</h3>
+<img src='./Board.jpeg'/>
+<h3 align='center'>Result Page</h3>
+<img src='./Result.jpeg'/>
 </div>
